@@ -5,20 +5,20 @@
 .child {
   width: 300px;
   height: 238px;
-  border: 1px solid black;
+  /* border: 1px solid #848D82; */
 
   position: absolute;
   left: 50%;
 
   text-align: center;
 
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 100%);
 }
 
 .play {
   width: 78px;
   height: 78px;
-  border: 1px solid black;
+  /* border: 1px solid #848D82; */
   border-bottom: 0;
 
   position: absolute;
@@ -32,7 +32,7 @@
 .pause {
   width: 78px;
   height: 78px;
-  border: 1px solid black;
+  /* border: 1px solid #848D82; */
   border-bottom: 0;
 
   position: absolute;
@@ -46,7 +46,7 @@
 .stop {
   width: 78px;
   height: 78px;
-  border: 1px solid black;
+  /* border: 1px solid #848D82; */
 
   position: absolute;
   left: -80px;
@@ -59,7 +59,7 @@
 .refresh {
   width: 78px;
   height: 78px;
-  border: 1px solid black;
+  /* border: 1px solid #848D82; */
   border-bottom: 0;
 
   position: absolute;
@@ -73,7 +73,7 @@
 .minutes {
   width: 78px;
   height: 78px;
-  border: 1px solid black;
+  /* border: 1px solid #848D82; */
   border-bottom: 0;
 
   position: absolute;
@@ -87,7 +87,7 @@
 .seconds {
   width: 78px;
   height: 78px;
-  border: 1px solid black;
+  /* border: 1px solid #848D82; */
 
   position: absolute;
   right: -80px;
@@ -120,5 +120,13 @@ h1 {
 
 span {
   font-size: 4.5em;
-  line-height: 238px
+  line-height: 238px;
+  padding: 40px;
+  border: 1.5px solid black;
+  border-radius: 30px;
+}
+
+body {
+  background-color: #ECE59A;
+  font-family: "Love Ya Like A Sister";
 }
