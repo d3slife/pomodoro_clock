@@ -29,7 +29,7 @@
   background-size: 50px;
 }
 
-.pause {
+.stop {
   width: 78px;
   height: 78px;
   /* border: 1px solid #848D82; */
@@ -39,11 +39,11 @@
   left: -80px;
   top: 79px;
 
-  background: url(../images/pause.png) no-repeat center center;
+  background: url(../images/stop.png) no-repeat center center;
   background-size: 50px;
 }
 
-.stop {
+.switch {
   width: 78px;
   height: 78px;
   /* border: 1px solid #848D82; */
@@ -52,7 +52,7 @@
   left: -80px;
   top: 159px;
 
-  background: url(../images/stop.png) no-repeat center center;
+  background: url(../images/pause.png) no-repeat center center;
   background-size: 50px;
 }
 
@@ -79,6 +79,7 @@
   position: absolute;
   right: -80px;
   top: 79px;
+  transform: rotate(-90deg);
 
   background: url(../images/minutes.png) no-repeat center center;
   background-size: 50px;
@@ -92,7 +93,7 @@
   position: absolute;
   right: -80px;
   top: 159px;
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 
   background: url(../images/minutes.png) no-repeat center center;
   background-size: 50px;
@@ -110,6 +111,21 @@
   text-align: center;
 }
 
+.time {
+  height: 120px;
+  width: 220px;
+  border: 1.5px solid black;
+  border-radius: 30px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  text-align: center;
+
+  transform: translate(-50%, -50%);
+}
+
 h1 {
   display: inline;
 }
@@ -120,13 +136,14 @@ h1 {
 
 span {
   font-size: 4.5em;
-  line-height: 238px;
-  padding: 40px;
-  border: 1.5px solid black;
-  border-radius: 30px;
+  line-height: 120px;
 }
 
 body {
   background-color: #ECE59A;
   font-family: "Love Ya Like A Sister";
+}
+
+.button {
+  cursor: pointer;
 }
